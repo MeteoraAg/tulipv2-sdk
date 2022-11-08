@@ -100,14 +100,14 @@ ray-msolusdt-levfarm = []
 ray-starsusdc-levfarm = []
 ray-prismusdc-levfarm = []
 [dependencies]
-solana-program = "1.9.13"
-spl-token = "3.2.0"
+solana-program = "1.10.29"
+spl-token = "3.3.0"
 tulipv2-sdk-common = {path = "../common", version = "0.9.21"}
 itertools = "0.10.3"
 num-derive = "0.3"
 thiserror = "1.0"
 num-traits = "0.2"
-anchor-lang = "0.24.2"
+anchor-lang = "0.25.0"
 static-pubkey = "1.0.2"
 sighashdb = "0.1.39"
 [dev-dependencies]

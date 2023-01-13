@@ -10,8 +10,8 @@ documentation = "https://docs.rs/tulipv2-sdk-vaults"
 readme = "../README.md"
 
 [dependencies]
-solana-program = "1.10.29"
-spl-token = "3.3.0"
+solana-program = "1.14.12"
+spl-token = "3.5.0"
 tulipv2-sdk-common = {path = "../common", version = "0.9.21"}
 itertools = "0.10.3"
 num-derive = "0.3"

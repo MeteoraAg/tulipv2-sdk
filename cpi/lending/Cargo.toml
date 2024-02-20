@@ -1,0 +1,15 @@
+[package]
+name = "tulipv2-sdk-lending-interface"
+version = "0.9.21"
+edition = "2021"
+authors = ["Tulip Protocol"]
+description = "lending instructions for v1 lending"
+keywords = ["solana", "anchor", "tulip-protocol"]
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/tulipv2-sdk-vaults"
+readme = "../README.md"
+
+[dependencies]
+solana-program = "1.16.13"
+spl-token = "3.5.0"
+tulipv2-sdk-common = { path = "../common", package = "tulipv2-sdk-common-interface" }
